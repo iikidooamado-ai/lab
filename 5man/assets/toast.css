@@ -1,0 +1,43 @@
+﻿.toast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Toast styles */
+.toast {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    min-width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+    .toast.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+/* Colors */
+.toast-success {
+    background: #28a745;
+}
+/* Green */
+.toast-error {
+    background: #dc3545;
+}
+/* Red */
+.toast-warning {
+    background: #ffc107;
+    color: #000;
+}
+/* Yellow */
+.toast-info {
+    background: #17a2b8;
+}
+/* Blue */

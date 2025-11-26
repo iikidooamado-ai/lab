@@ -1,0 +1,4 @@
+INSERT INTO labs (lab_name, color) VALUES
+('Computer Lab B', '#ff0000'),
+('Computer Lab C', '#00ff00'),
+('Computer Lab D', '#0000ff');

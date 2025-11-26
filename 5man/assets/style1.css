@@ -1,0 +1,70 @@
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 90px;
+}
+
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-body h2 {
+    font-weight: bold;
+}
+
+
+.neon-text {
+    font-weight: bold;
+    font-size: 2rem;
+    background: linear-gradient(90deg, #00f0ff, #ff00ff, #00ff88);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: neonMove 3s linear infinite;
+}
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 15px;
+    background: #fff;
+
+
+.neon-text {
+    font-weight: bold;
+    background: linear-gradient(90deg, #00ffea, #007bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.btn-gradient {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+    .btn-gradient:hover {
+        background: linear-gradient(45deg, #0072ff, #00c6ff);
+        transform: scale(1.02);
+    }
+
+@keyframes neonMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
+}

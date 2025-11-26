@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* full height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Push main content down under navbar & center */
+.main-content {
+    flex: 1; /* take remaining space */
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+}
+/* Background gradient (same as index.html) */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Neon text effect */
+.neon-text {
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+/* Neon heading */
+.neon-heading {
+    font-family: 'Arial Black', sans-serif;
+    color: #ff0;
+    text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 20px #ff0, 0 0 40px #ff0, 0 0 80px #ff0;
+    animation: flicker 1.5s infinite alternate;
+}
+
+/* Flicker animation */
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+
+    20%, 24%, 55% {
+        opacity: 0.4;
+    }
+}
+
+/* Neon container */
+.neon-container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff;
+    max-width: 600px;
+    margin: 5rem auto;
+    text-align: center;
+}

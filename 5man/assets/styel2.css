@@ -1,0 +1,47 @@
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 90px;
+}
+
+
+.auth-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+.neon-text {
+    font-weight: bold;
+    font-size: 2rem;
+    background: linear-gradient(90deg, #00f0ff, #ff00ff, #00ff88);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: neonMove 3s linear infinite;
+}
+
+@keyframes neonMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
+}
