@@ -1,7 +1,6 @@
 INSERT INTO users (username, password, role) VALUES 
 ('faculty1', '$2y$10$7PIR3KWnr.nvy7kZtBJSa.7Wo8ZowN2M40DrIjZIJdct26YrZtoka', 'faculty'),
-('faculty2', '$2y$10$7PIR3KWnr.nvy7kZtBJSa.7Wo8ZowN2M40DrIjZIJdct26YrZtoka', 'faculty'),
-('faculty3', '$2y$10$7PIR3KWnr.nvy7kZtBJSa.7Wo8ZowN2M40DrIjZIJdct26YrZtoka', 'faculty');
 
 
 $2y$10$7PIR3KWnr.nvy7kZtBJSa.7Wo8ZowN2M40DrIjZIJdct26YrZtoka
+
